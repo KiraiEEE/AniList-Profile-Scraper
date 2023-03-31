@@ -41,18 +41,18 @@ root = tk.Tk()
 root.configure(bg='#331832')
 
 root.geometry("400x400")
-root.title("AniList.co Profile Scraper")
+root.title("AniList.co プロファイル スクレーパー")
 
-title_label = tk.Label(root, text="AniList.co Profile Scraper", font=("Yu Gothic UI Light", 20), fg="#D9B3E6", bg='#331832')
+title_label = tk.Label(root, text="AniList.co プロファイル スクレーパー", font=("Yu Gothic UI Light", 20), fg="#D9B3E6", bg='#331832')
 title_label.pack(pady=10)
 
-input_label = tk.Label(root, text="Enter AniList.co username:", font=("Yu Gothic UI Light", 12), fg="#D9B3E6", bg='#331832')
+input_label = tk.Label(root, text="ユーザー名 : ", font=("Yu Gothic UI Light", 12), fg="#D9B3E6", bg='#331832')
 input_label.pack()
 
 entry = tk.Entry(root, font=("Yu Gothic UI Light", 12), bg='#331832', fg='#D9B3E6')
 entry.pack(pady=5)
 
-button = tk.Button(root, text="Scrape", font=("Yu Gothic UI Light", 12), bg='#9556a3', fg='#D9B3E6', command=on_button_click)
+button = tk.Button(root, text="行け！>>", font=("Yu Gothic UI Bold", 12), bg='#9556a3', fg='#111111', command=on_button_click)
 button.pack(pady=10)
 
 name_label = tk.Label(root, font=("Yu Gothic UI Light", 16), fg="#D9B3E6", bg='#331832')
